@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" href="./greenden images/logo2.png"   type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body>
+     <!--NAVBAR-->
+     <nav class="p-2 bg-2 bg-green-100 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-3xl font-serif">GREENDEN</h1>
+        <svg id="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="h-6 w-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class="flex gap-5  text-gray-600 hidden md:flex">
+            <li class=" hover:text-black hover:underline" href=""><a href="index.html">Home</a>
+            </li>
+            <li class=" hover:text-black hover:underline" href=""><a href="product.html">Product</a>
+            </li>
+            <li class=" hover:text-black hover:underline" href=""><a href="contact.html">Contact</a>
+        </ul>
+    </nav>
+     <!--SIDE NAVBAR-->
+     <section id="sidenav" class="bg-green-100 fixed z-20 top-0  " style="width: 50%;height: 100vh; right: -50%; transition: all; transition-duration: 1000;">
+        <div class="text-right p-4">
+            <p id="x" class="inline cursor-pointer">X</p>
+        </div>
+    <ul class="flex gap-10  text-gray-600  flex-col items-center p-6">
+        <li class=" hover:text-black hover:underline" href=""><a href="index.html">Home</a>
+        </li>
+        <li class=" hover:text-black hover:underline" href=""><a href="product.html">Product</a>
+        </li>
+        <li class=" hover:text-black hover:underline" href=""><a href="contact.html">Contact</a>
+        </li>
+    </ul>
+</section>
+    <!--HEADER-->
+    <section class="bg-green-100 p-4 md:p-10 flex justify-center ">
+        <div>
+            <p class="mb-4">we offer you a wide range of artificial and natural flowers</p>
+            <h1 class="font-bold text-3xl mb-5 md:text-5xl">plants for your interior</h1>
+            <div class="mt-5">
+                <button class="bg-black text-white p-2 rounded">
+                    shop now
+                </button>
+                <button class="border border-black p-2 rounded">
+                    watch video
+                </button>
+            </div>
+            <p class="mt-4">160+plant species | 100+ clients</p>
+        </div>
+        <div class="hidden md:block p-5">
+            <img src="./greenden images/header.jpg" alt="" class="w-60">
+        </div>
+    </section>
+    <!--FORM-->
+    <section>
+        <div class="min-h-screen bg-green-900 py-6 flex flex-col justify-center sm:py-12">
+            <div class="relative py-3 sm:max-w-xl sm:mx-auto">
+                <div
+                    class="absolute inset-0 bg-gradient-to-r from-green-700 to-green-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl">
+                </div>
+                <div class="text-white relative px-4 py-10 bg-green-400 shadow-lg sm:rounded-3xl sm:p-20">
+        
+                    <div class="text-center pb-6">
+                        <h1 class="text-3xl">Contact Us!</h1>
+        
+                        <p class="text-gray-300">
+                            Fill up the form below to send us a message.
+                        </p>
+                    </div>
+        
+                    <form>
+        
+                        <input
+                                class="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                type="text" placeholder="Name" name="name">
+        
+                        <input
+                                class="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                type="email" placeholder="Email" name="email">
+        
+                        <input
+                                class="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                type="text" placeholder="Subject" name="_subject">
+        
+                        <textarea
+                                class="shadow mb-4 min-h-0 appearance-none border rounded h-64 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                type="text" placeholder="Type your message here..." name="message" style="height: 121px;"></textarea>
+        
+                        <div class="flex justify-between">
+                            <input
+                                class="shadow bg-green-700 hover:bg-green-800 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                                type="submit" value="Send ➤">
+                            <input
+                                class="shadow bg-green-700 hover:bg-green-800 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                                type="reset">
+                        </div>
+        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!--footer-->
+     <section class=" bg-green-100 p-10 flex flex-col gap-3">
+        <h1 class="text-4xl font-bold ">Greenden</h1>
+        <p>The Standard chunk of lorem ipsum used since the 1500's is reproduced for the products interests</p>
+        <p>@ 2024 Greenden.com</p>
+    </section>
+    <script src="contact.js"></script>
+</body>
+</html>

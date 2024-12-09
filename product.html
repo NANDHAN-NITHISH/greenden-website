@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="icon" href="./greenden images/logo2.png"   type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+
+</head>
+<body class="bg-green-100">
+    <!--NAVBAR-->
+    <nav class="p-2 bg-2 bg-green-100 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-3xl font-serif">GREENDEN</h1>
+        <svg id="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="h-6 w-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class="flex gap-5  text-gray-600 hidden md:flex">
+            <li class=" hover:text-black hover:underline" href=""><a href="index.html">Home</a>
+            </li>
+            <li class=" hover:text-black hover:underline" href=""><a href="product.html">Product</a>
+            </li>
+            <li class=" hover:text-black hover:underline" href=""><a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+     <!--SIDE NAVBAR-->
+     <section id="sidenav" class="bg-green-100 fixed z-20 top-0  " style="width: 50%;height: 100vh; right: -50%; transition: all; transition-duration: 1000;">
+        <div class="text-right p-4">
+            <p id="x" class="inline cursor-pointer">X</p>
+        </div>
+    <ul class="flex gap-10  text-gray-600  flex-col items-center p-6">
+        <li class=" hover:text-black hover:underline" href=""><a href="index.html">Home</a>
+        </li>
+        <li class=" hover:text-black hover:underline" href=""><a href="product.html">Product</a>
+        </li>
+        <li class=" hover:text-black hover:underline" href=""><a href="contact.html">Contact</a>
+        </li>
+    </ul>
+</section>
+    <!--HEADER-->
+    <section class="text-center ">
+<h1 class="text-4xl font-bold mt-5">Our Product</h1>
+<input id="search" type="text"  placeholder="Search for products. . ."  class="border border-black p-2 m-2 mt-4" style="width: 80%;" >
+    </section>
+    <!--IMAGES-->
+    <section id="product-container" class=" text-center ml-6 mt-5 " >
+        <div class="grid grid-cols-2 md:grid-cols-4 " >
+            <div><img src="./greenden images/1.png" class=" inline   mt-3 hover:shadow-xl transform hover:-translate-y-2">
+            <p class="p-1 ">V&Y Flowers</p>
+            <p class="p-1 ">$25</p></div>
+            <div><img src="./greenden images/anthurium.png" class=" inline  mt-3 hover:shadow-xl transform hover:-translate-y-2">
+                <p class="p-1 ml-6">Anthurium</p>
+                <p class="p-1 ml-6">$20</p>   
+            </div>
+            <div><img src="./greenden images/3.png" class="inline   mt-3 hover:shadow-xl transform hover:-translate-y-2">
+                <p class="p-1 ml-6">Decor stand with flowers</p>
+                <p class="p-1 ml-6">$40</p></div>
+            <div><img src="./greenden images/4.png" class="inline   mt-3 hover:shadow-xl transform hover:-translate-y-2" >
+                <p class="p-1 ml-6">Syngonium</p>
+                <p class="p-1 ml-6">$30</p></div>
+        </div>
+        <div class=" grid grid-cols-2 md:grid-cols-4 ">
+            <div><img src="./greenden images/5.png" class=" inline   mt-3 hover:shadow-xl transform hover:-translate-y-2">
+            <p class="p-1 ml-6">Gifting Flowerpot</p>
+            <p class="p-1 ml-6">$35</p></div>
+            <div><img src="./greenden images/6.png" class="inline   mt-3 hover:shadow-xl transform hover:-translate-y-2">
+                <p class="p-1 ml-6">Wheat Pot</p>
+                <p class="p-1 ml-6">$15</p>   
+            </div>
+            <div><img src="./greenden images/7.png" class="inline   mt-3 hover:shadow-xl transform hover:-translate-y-2">
+                <p class="p-1 ml-6">Slim Pot</p>
+                <p class="p-1 ml-6">$20</p></div>
+            <div><img src="./greenden images/8.png" class="inline   mt-3 hover:shadow-xl transform hover:-translate-y-2">
+                <p class="p-1 ml-6">White Aesthetic </p>
+                <p class="p-1 ml-6">$29</p></div>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-4  ">
+            <div><img src="./greenden images/9.png" class="inline   mt-3 hover:shadow-xl transform hover:-translate-y-2">
+            <p class="p-1 ml-6">Formal RosePot</p>
+            <p class="p-1 ml-6">$30</p></div>
+            <div><img src="./greenden images/10.png" class=" inline   mt-3 hover:shadow-xl transform hover:-translate-y-2">
+                <p class="p-1 ml-6">Table Decorative</p>
+                <p class="p-1 ml-6">$20</p>   
+            </div>
+            <div><img src="./greenden images/11.png" class="inline  mt-3 hover:shadow-xl transform hover:-translate-y-2">
+                <p class="p-1 ml-6">Banana Leaf</p>
+                <p class="p-1 ml-6">$25</p></div>
+            <div><img src="./greenden images/12.png" class="inline   mt-3 hover:shadow-xl transform hover:-translate-y-2">
+                <p class="p-1 ml-6">Triple Plant Pots</p>
+                <p class="p-1 ml-6">$55</p></div>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-4  ">
+            <div><img src="./greenden images/13.png" class="inline   mt-3 hover:shadow-xl transform hover:-translate-y-2">
+            <p class="p-1 ml-6">Aloe vera</p>
+            <p class="p-1 ml-6">$20</p></div>
+            <div><img src="./greenden images/14.png" class="inline mt-3 hover:shadow-xl transform hover:-translate-y-2">
+                <p class="p-1 ml-6">Snake Plant</p>
+                <p class="p-1 ml-6">$20</p>   
+            </div>
+            <div><img src="./greenden images/15.png" class="inline  mt-3 hover:shadow-xl transform hover:-translate-y-2">
+                <p class="p-1 ml-6">Multi Pots</p>
+                <p class="p-1 ml-6">$70</p></div>
+            <div><img src="./greenden images/2.png" class="inline   mt-3 hover:shadow-xl transform hover:-translate-y-2">
+                <p class="p-1 ml-6">Violet Pot</p>
+                <p class="p-1 ml-6">$20</p></div>
+        </div>
+        
+        
+    </section>
+    <!--FOOTER-->
+    <section class=" bg-green-700 p-10 flex flex-col gap-3 text-gray-300">
+        <h1 class="text-4xl font-bold ">Greenden</h1>
+        <p>The Standard chunk of lorem ipsum used since the 1500's is reproduced for the products interests</p>
+        <p>@ 2024 Greenden.com</p>
+    </section>
+    <script src="product.js"></script>
+</body>
+</html>
